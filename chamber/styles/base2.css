@@ -12,6 +12,10 @@ body {
     line-height: 1.5;
 }
 
+header, main, footer {
+    margin: 0 auto;
+}
+
 /*header*/
 
 header{
@@ -23,7 +27,9 @@ header{
 }
 
 .title {
-
+    line-height: 0.8;
+    font-size: 0.6rem;
+    padding-right: 0.5rem;
 }
 
 .logo-image {
@@ -33,7 +39,10 @@ header{
 }
 
 .nav {
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0.5rem;
 }
 
 .socials {
@@ -56,6 +65,15 @@ header{
     font-weight: bold;
     letter-spacing: 0.2em;
     padding: 0.2rem;
+}
+
+/*main*/
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin: 1rem;
 }
 
 /*footer*/
