@@ -88,7 +88,7 @@ header{
     text-align: center;
 }
 
-.hero h2{
+.hero-h2{
     z-index: 2;
     margin: 0px;
     position: absolute;
@@ -101,11 +101,9 @@ header{
 }
 
 .hero-img {
-    position: relative;
-    width: 100%;
-    height: 100%;
+    width:auto;
+    height:auto;
     object-fit: cover;
-    z-index: 1;
 }
 
 img {
@@ -113,6 +111,8 @@ img {
     margin: 0 auto;
     display: block;
 }
+
+
 
 /*footer*/
 
