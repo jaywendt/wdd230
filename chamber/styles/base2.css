@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 
 /*main bodies*/
-
-header, nav, main, footer {
-    max-width: 560px;
-}
-
 body {
     background-color: #7CFEF0;
     font-family: 'Times New Roman', Times, serif;

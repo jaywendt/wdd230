@@ -1,0 +1,168 @@
+body {
+    background-color: #7CFEF0;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+header, main, footer {
+    margin: 0 auto;
+}
+
+/*header*/
+
+header{
+    background-color: #7CFEF0;
+    color: Black;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.title {
+    line-height: 0.8;
+    font-size: 0.6rem;
+    padding-right: 0.5rem;
+}
+
+.logo-image {
+    max-width: 70px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+
+.socials {
+    display: flex;
+    grid-area: d;
+    align-items: center;
+    justify-content: right;
+    margin: .4vw;
+}
+
+.socials img {
+    margin-left: 0.5rem;
+    max-width: 40px;
+}
+
+.time {
+    text-align: center;
+    margin: 0.4rem;
+    border: 5px #FF5100;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    padding: 0.2rem;
+}
+
+/*main*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main {
+	margin: 0 auto;
+	padding: 0.5rem;
+	max-width: 700px;
+	background-color: #fff;
+}
+
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #bed;
+	text-align: center;
+}
+
+.menu button {
+	padding: 1rem;
+	font-weight: 700;
+}
+
+section {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #eee;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
+}
+
+.grid section {
+	text-align: center;
+}
+
+.grid img {
+	border: 1px solid #fff;
+	box-shadow: 0 0 10px #333;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+}
+
+.grid h3 {
+	font-family: "Caveat", cursive;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+.list section > * {
+	margin: 0 1rem;
+}
+
+.list section img {
+	display: none;
+}
+
+.list section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.list section:nth-child(even) {
+	background-color: #bed;
+}
+
+section h3 {
+	font-size: 1.5rem;
+}
+
+section p {
+	font-weight: 600;
+	font-size: smaller;
+}
+
+section a {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 0.85rem;
+	color: navy;
+	letter-spacing: 1.1pt;
+}
+
+img {
+	height: 75px;
+	max-width: 100%;
+}
