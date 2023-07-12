@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&display=swap');
+
+/*main bodies*/
+
+header {
+    background-color: aqua;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+/*header*/
+
+.title {
+    font-family: 'caveat', cursive;
+}
+
+.nav {
+    font-family: 'caveat', cursive;
+}
