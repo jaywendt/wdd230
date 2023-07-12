@@ -14,8 +14,72 @@ body {
 
 .title {
     font-family: 'caveat', cursive;
+    background: #E60D5B;
 }
 
 .nav {
     font-family: 'caveat', cursive;
+    background: #A80C4B;
+}
+
+/*body*/
+
+.hero {
+    background-color: #309422;
+}
+
+.hero h1 {
+    font-family: 'caveat', cursive;
+    color: #230C1E;
+}
+
+.hero p {
+    font-family: 'indie flower', cursive;
+    color: #230C1E;
+}
+
+.drinks {
+    background-color: #80BC1F;
+}
+
+.drinks h2 {
+    font-family: 'caveat', cursive;
+    color: #230C1E;
+}
+
+.fresh {
+    background-color: #80BC1F;
+}
+
+.fresh h3 {
+    font-family: 'caveat', cursive;
+    color: #230C1E;
+}
+
+.fresh a {
+    font-family: 'caveat', cursive;
+}
+
+.about-us {
+    background-color: #EBF0EA;
+}
+
+.about-us h2 {
+    font-family: 'caveat', cursive;
+    color: #230C1E;
+}
+
+.weather {
+    background-color: #EBF0EA;
+}
+
+.weather h2 {
+    font-family: 'caveat', cursive;
+    color: #230C1E;
+}
+
+/*footer*/
+
+.footer {
+
 }
