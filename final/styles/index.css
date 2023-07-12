@@ -22,6 +22,11 @@ body {
     background: #A80C4B;
 }
 
+.socials img {
+    margin-left: 0.5rem;
+    max-width: 40px;
+}
+
 /*body*/
 
 .hero {
