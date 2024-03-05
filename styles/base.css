@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .madimi-one-regular {
     font-family: "Madimi One", sans-serif;
     font-weight: 400;
@@ -6,4 +12,30 @@
 
 body {
     font-family: "Madimi One", sans-serif;
+}
+
+main {
+    margin: 1rem 2vw;
+}
+
+.card {
+    color: black;
+    border: 1px solid black;
+    background-color: aqua;
+    display: block;
+    overflow: hidden;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+
+.card h2 {
+    color: black;
+    background-color: mediumblue;
+    display: block;
+    padding: .75rem 0;
+    text-align: center;
+}
+
+.card span {
+    padding: 10px;
 }

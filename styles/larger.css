@@ -1,0 +1,11 @@
+@media screen and (min-width: 500px) {
+    .card {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 10px;
+    }
+
+    .card section {
+        box-shadow: 1px 1px 10px black;
+    }
+}
