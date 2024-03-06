@@ -10,12 +10,62 @@
     font-style: normal;
   }
 
+head, body {
+    background-color: gray;
+}
+
 body {
     font-family: "Madimi One", sans-serif;
 }
 
+header {
+    text-align: center;
+    background-color: aqua;
+    color: black;
+    border: 1px solid black;
+    display: block;
+    overflow: hidden;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+
+header img {
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
 main {
     margin: 1rem 2vw;
+    text-align: center;
+    max-width: fit-content;
+}
+
+nav {
+    text-align: center;
+    background-color: aqua;
+    color: black;
+    border: 1px solid black;
+    display: block;
+    overflow: hidden;
+    margin: 1rem 0;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border: 1px solid blue;
 }
 
 .card {
@@ -38,4 +88,8 @@ main {
 
 .card span {
     padding: 10px;
+}
+
+.card section h2 {
+    list-style-type: none;
 }
