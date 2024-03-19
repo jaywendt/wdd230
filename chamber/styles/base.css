@@ -76,7 +76,7 @@ nav a {
 }
 
 nav a:hover {
-    border: 1px solid blue;
+    border: 1px solid #2D7DD2;
 }
 
 /*main*/
