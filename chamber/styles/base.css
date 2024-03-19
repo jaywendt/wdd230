@@ -81,4 +81,10 @@ nav a:hover {
 
 /*main*/
 
+main {
+    margin: 1rem 2vw;
+    text-align: center;
+    max-width: fit-content;
+}
+
 /*footer*/
