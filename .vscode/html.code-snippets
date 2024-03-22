@@ -1,0 +1,32 @@
+{
+    "HTML 230 Template": {
+        "prefix": "html230",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en-US\">",
+            "<head>",
+            "    <meta charset=\"utf-8\">",
+            "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+            "    <title>${1:Meaningful Title}</title>",
+            "    <meta name=\"description\" content=\"${2:Description of Page Using Keywords}\">",
+            "    <meta name=\"author\" content=\"Johannes Wendt\">",
+            "    <link rel=\"icon\" href=\"favicon.${3:ico}\">",
+            "    <meta property=\"og:type\" content=\"${4:website}\">",
+            "    <meta property=\"og:url\" content=\"${5:http://www.canonical-url.com}\">",
+            "    <meta property=\"og:title\" content=\"${6:Title}\">",
+            "    <meta property=\"og:image\" content=\"images/${7:image.png}\">",
+            "    <meta property=\"og:description\" content=\"${8:A Brief Description}\">",
+            "    <link rel=\"stylesheet\" href=\"styles/${9:filename}\">",
+            "</head>",
+            "<body>",
+            "    <header><h1>${10:Page Title - Heading 1}</h1></header>",
+            "    <nav></nav>",
+            "    <main></main>",
+            "    <footer>&copy;Johannes Wendt | BYU-Idaho | WDD 230 - Winter 2024</footer>",
+            "    <script src=\"scripts/${11:filename}\"></script>",
+            "</body>",
+            "</html>"
+        ],
+        "description": "HTML Template Base for WDD 230"
+    }
+}

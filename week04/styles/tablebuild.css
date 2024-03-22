@@ -1,0 +1,29 @@
+table {
+    background-color: black;
+    color: antiquewhite;
+    border: 2px solid white;
+}
+
+table caption {
+    background-color: black;
+    text-align: center;
+}
+
+tbody {
+    background-color: white;
+    color: black;
+}
+
+td, th {
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+tr:nth-child(even) td {
+    background-color: var(--zebra);
+}
+
+tr:nth-child(odd) td {
+    background-color: var(--zebra);
+}
