@@ -32,6 +32,12 @@
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <source srcset="images/dcHero.webp" media="width=400px">
+            <source srcset="images/dcHero.webp" media="max-width=960px">
+            <img src="images/dcHero.webp" alt="Washington D.C. Temple">
+            <span>Washington D.C. Temple</span>
+        </div>
         <h1>WDD 230: Web Frontend Development</h1>
         <div class="card">
         <section>
@@ -56,9 +62,10 @@
         <section>
             <h2>Information</h2>
             <span>Weather</span>
-            <span># of site visits</span>
+            <span># of site visits: </span><span class="visitCounter"></span>
         </section>
         </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12434.512396937662!2d-91.13787828638252!3d38.81807395680715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1711304869554!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
     <footer>
         <p>©2024
@@ -68,5 +75,6 @@
         <p2 id="lastModified"></p2>
     </footer>
     <script src="scripts/getDates.js"> </script>
+    <script src="scripts/visitCounter.js"></script>
 </body>
 </html>
