@@ -1,0 +1,18 @@
+{
+    "familyName" : "Wendts",
+    "moveInDate" : "2023",
+    "numberOfFamily" : "2",
+    "visitedByBishopric" : "No",
+    "members" : [
+        {
+            "name" : "Johannes Wendt",
+            "gender" : "Male",
+            "birthdate" : "08/20/93"
+        },
+        {
+            "name" : "Brooke Wendt",
+            "gender" : "Female",
+            "birthdate" : "12/11/97"
+        }
+    ]
+}
