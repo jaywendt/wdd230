@@ -102,4 +102,11 @@ main {
     grid-column: 1/2;
 }
 
+/*form*/
+
+label {
+    display: block;
+    text-align: left;
+}
+
 /*footer*/
