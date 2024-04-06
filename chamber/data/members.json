@@ -1,6 +1,4 @@
 {
-    "community" : "Rialto Chamber of Commerce",
-    "numberOfMembers" : "7",
     "members" : [
         {
             "companyName" : "Jerry's Certified Foods",
@@ -9,7 +7,7 @@
             "website" : "goodfoods.com",
             "image/iconName" : "",
             "memberLevel" : "Bronze",
-            "other" : "#" 
+            "other" : "https://raw.githubusercontent.com/jaywendt/wdd230/main/chamber/images/business1.webp" 
         },
         {
             "companyName" : "Clarkson Drug Store Inc.",
