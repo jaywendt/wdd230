@@ -178,14 +178,32 @@ form {
     font-family: "Encode Sans Expanded", sans-serif;
 }
 
-form h1 {
+.j1 form h1 {
     text-align: center;
     font-family: "Madimi One", sans-serif;
 }
 
-label {
+.j1 legend {
+    text-align: left;
+    font-weight: bold;
+    font-family: "Madimi One", sans-serif;
+}
+
+.j1 fieldset {
+    margin: 2rem 0;
+}
+
+.j1 label {
     display: block;
     text-align: left;
+    padding-top: 1rem;
+    font-weight: bold;
+}
+
+.j1 div {
+    font-weight: bold;
+    margin: 1rem 0;
+    text-decoration: underline;
 }
 
 /*footer*/
