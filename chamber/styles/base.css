@@ -27,7 +27,7 @@ body {
 body h1, h2 {
     background-color: #2D7DD2;
     text-align: center;
-    border: 1px solid black;
+    border: 2px solid black;
     margin: 1rem 0;
 }
 
@@ -42,14 +42,16 @@ header {
     text-align: center;
     background-color: #F17105;
     color: black;
-    border: 1px solid black;
+    border: 2px solid black;
     margin: 1rem 0;
     border-radius: 10px;
+    font-size: xx-large;
 }
 
 .hero h1 {
     font-family: "Madimi One", sans-serif;
     text-align: center;
+    font-size: 40px;
 }
 
 .hero img {
@@ -68,7 +70,7 @@ nav {
     text-align: center;
     background-color: #F17105;
     color: black;
-    border: 1px solid black;
+    border: 2px solid black;
     display: block;
     overflow: hidden;
     margin: 1rem 0;
@@ -105,7 +107,7 @@ nav a:hover {
 }
 
 ul.navLink li a {
-    border: 1px solid black;
+    border: 2px solid black;
     display: block;
     padding: .75rem 2vw;
     color: black;
@@ -127,21 +129,59 @@ ul.navLink.open {
 /*main*/
 
 main {
+    display: grid;
     margin: 1rem 2vw;
     text-align: center;
-    max-width: fit-content;
+    max-width: auto;
+}
+
+header, nav {
+
+}
+
+.hero {
+
+}
+
+.call {
+    display: grid;
+    background-color: #F17105;
+    border: 2px solid black;
+    margin: 1rem 0;
+    border-radius: 10px;
+    grid-column: -2/-1;
 }
 
 .sidebar {
     display: grid;
     background-color: #F17105;
-    border: 1px solid black;
+    border: 2px solid black;
     margin: 1rem 0;
     border-radius: 10px;
     grid-column: 1/2;
+    grid-row: 1;
+}
+
+.localPics {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1;
 }
 
 /*form*/
+
+form {
+    background-color: #F17105;
+    border: 2px solid black;
+    margin: 1rem 0;
+    border-radius: 10px;
+    font-family: "Encode Sans Expanded", sans-serif;
+}
+
+form h1 {
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+}
 
 label {
     display: block;
