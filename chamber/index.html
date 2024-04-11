@@ -26,7 +26,8 @@
         <h1>Rialto Chamber of Commerce</h1>
     </header>
     <nav>
-        <ul>
+        <button id="hamburger">&#9776;</button>
+        <ul class="navLink">
             <li class="active"><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
             <li><a href="join.html">Join</a></li>
@@ -38,16 +39,20 @@
             <h1>Join your talents with ours!</h1>
             <img src="images/rialto.jpg" alt="Downtown Rialto">
         </div>
-        <div class="action">
-            <h2>Join the Chamber today!</h2>
+        <div class="sidebar" id="action">
+            <h2>Come and see what we have to offer!</h2>
+            <li><a href="join.html">Join us!</a></li>
         </div>
-        <div class="current-events">
+        <div class="sidebar" id="current-events">
+            <h2>Here's what's been going on:</h2>
             <p>placeholder</p>
         </div>
-        <div class="weather">
+        <div class="sidebar" id="weather">
+            <h2>What's it looking like tomorrow:</h2>
             <p>placeholder</p>
         </div>
-        <div class="spotlights">
+        <div class="sidebar" id="spotlights">
+            <h2>Meet some of your neighbors!</h2>
             <p>placeholder</p>
         </div>
     </main>
@@ -58,5 +63,6 @@
         </p>
         <p2 id="lastModified"></p2>
     </footer>
+    <script src="scripts/hamburger.js"></script>
 </body>
 </html>

@@ -19,7 +19,9 @@
 /*body*/
 
 body {
+    display: grid;
     background-color: #F5F0F6;
+    width: fit-content;
 }
 
 body h1, h2 {
@@ -27,6 +29,10 @@ body h1, h2 {
     text-align: center;
     border: 1px solid black;
     margin: 1rem 0;
+}
+
+body p {
+    font-family: "Encode Sans Expanded", sans-serif;
 }
 
 /*header*/
@@ -67,6 +73,8 @@ nav {
     overflow: hidden;
     margin: 1rem 0;
     border-radius: 10px;
+    font-family: "Encode Sans Expanded", sans-serif;
+    max-width: 800px;
 }
 
 nav ul {
@@ -83,6 +91,37 @@ nav a {
 
 nav a:hover {
     border: 1px solid #2D7DD2;
+}
+
+#hamburger {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #F5F0F6;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    padding: .25rem 2vw;
+}
+
+ul.navLink li a {
+    border: 1px solid black;
+    display: block;
+    padding: .75rem 2vw;
+    color: black;
+    text-decoration: none;
+}
+
+li.active a {
+    background-color: rgba(0,0,0,0.2);
+}
+
+ul.navLink {
+    display: none;
+}
+
+ul.navLink.open {
+    display: block;
 }
 
 /*main*/
