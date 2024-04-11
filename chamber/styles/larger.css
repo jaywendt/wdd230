@@ -10,7 +10,6 @@
 
     ul.navLink, ul.navLink.open {
         display: flex;
-        justify-content: flex-end;
     }
 
     ul.navLink a:hover {
