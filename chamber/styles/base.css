@@ -135,14 +135,6 @@ main {
     max-width: auto;
 }
 
-header, nav {
-
-}
-
-.hero {
-
-}
-
 .call {
     display: grid;
     background-color: #F17105;

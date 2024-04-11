@@ -5,16 +5,16 @@
             "address" : "1234 Random Ave",
             "phoneNumber" : "111-111-1111",
             "website" : "goodfoods.com",
-            "image/iconName" : "",
+            "imageurl" : "https://raw.githubusercontent.com/jaywendt/wdd230/main/chamber/images/business1.webp",
             "memberLevel" : "Bronze",
-            "other" : "https://raw.githubusercontent.com/jaywendt/wdd230/main/chamber/images/business1.webp" 
+            "other" : "" 
         },
         {
             "companyName" : "Clarkson Drug Store Inc.",
             "address" : "11230 North St",
             "phoneNumber" : "123-456-7890",
             "website" : "clarksondrugs.org",
-            "image/iconName" : "",
+            "imageurl" : "https://pics.freeicons.io/premium/pharmacy-drug-medicine-sign-logo-icon-475497-256.png",
             "memberLevel" : "Silver",
             "other" : "#" 
         },
@@ -23,7 +23,7 @@
             "address" : "5968 Corner Boulevard",
             "phoneNumber" : "098-765-4321",
             "website" : "fsp.org", 
-            "image/iconName" : "",
+            "imageurl" : "https://cdn-icons-png.flaticon.com/256/13089/13089687.png",
             "memberLevel" : "Gold",
             "other" : "#"
         },
@@ -32,7 +32,7 @@
             "address" : "4545 Ashely Ave",
             "phoneNumber" : "333-444-1113",
             "website" : "n/a",
-            "image/iconName" : "",
+            "imageurl" : "",
             "memberLevel" : "Bronze",
             "other" : "#"
         },
@@ -41,7 +41,7 @@
             "address" : "650 Tolkein Street",
             "phoneNumber" : "007-031-1999",
             "website" : "secondfiddle.com",
-            "image/iconName" : "",
+            "imageurl" : "",
             "memberLevel" : "Bronze",
             "other" : "#"
         },
@@ -50,7 +50,7 @@
             "address" : "7877 Chocolate Street",
             "phoneNumber" : "757-952-3066",
             "website" : "sweetsister.com",
-            "image/iconName" : "",
+            "imageurl" : "",
             "memberLevel" : "n/a",
             "other" : "#"
         },
@@ -59,7 +59,7 @@
             "address" : "5689 Cheese Circle",
             "phoneNumber" : "566-896-3014",
             "website" : "watongacheese.com",
-            "image/iconName" : "",
+            "imageurl" : "",
             "memberLevel" : "Silver",
             "other" : "#"
         }

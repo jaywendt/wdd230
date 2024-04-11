@@ -15,9 +15,9 @@ const displayMembers = (members) => {
         let name = document.createElement('h2');
         let icon = document.createElement('img');
 
-        name.textContent = `${member.name}`;
+        name.textContent = `${member.companyName}`;
         icon.setAttribute('src', member.imageurl);
-        icon.setAttribute('alt', `Business Icon of ${member.icon}`);
+        icon.setAttribute('alt', `Business Icon of ${member.companyName}`);
         icon.setAttribute('loading', 'lazy');
         icon.setAttribute('width', '340');
         icon.setAttribute('height', '440');
