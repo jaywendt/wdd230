@@ -1,0 +1,33 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    max-width: 767px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+}
+
+main section {
+    margin: 0.5rem;
+    border: 1px solid black;
+    padding: 0 1rem;
+    background-color: aquamarine;
+}
+
+main section h2{
+    background-color: blue;
+    color: white;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+main section p {
+    font-size: medium;
+}
