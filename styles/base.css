@@ -40,27 +40,90 @@ nav {
     display: block;
 }
 
-nav ul {
+.menu {
+    height: 75vh;
+    width: 100%;
+    max-width: 350px;
+    position: fixed;
+    display: flex;
+    top: 0;
+    right: -450px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    transition: .3s ease;
+    background-color: lightcyan;
+    border: 2px solid black;
+}
+
+.menu.active {
+    right: 0;
+}
+
+.menu ul {
     list-style-type: none;
 }
 
-nav a {
+.menu a {
     color: black;
     text-align: center;
     padding: 1rem;
     text-decoration: none;
 }
 
-nav a:hover {
+.menu a:hover {
     border: 1px solid black;
 }
 
-nav ul li {
-    display: inline;
+.menu ul li {
+    display: flex;
 }
 
 .active {
     color: yellow;
+}
+
+.hamburger {
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    position: relative;
+}
+
+.hamburger span {
+    height: 5px;
+    width: 100%;
+    background-color: #6F86FF;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+}
+
+.hamburger span:nth-child(1) {
+    top: 25%;
+}
+
+.hamburger span:nth-child(3) {
+    top: 75%;
+}
+
+.hamburger.active span:nth-child(1) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 /*main*/
