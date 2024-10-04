@@ -126,6 +126,11 @@ nav {
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 
+li.menu::first-letter {
+    font-size: 200%;
+    color: blue;
+}
+
 /*main*/
 
 main {
@@ -149,6 +154,10 @@ h2 {
     padding: 2rem;
     border: 2px solid black;
     margin: 2rem;
+}
+
+::marker {
+    content: 💯;
 }
 
 /*footer*/
