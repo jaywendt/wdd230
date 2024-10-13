@@ -1,0 +1,40 @@
+Combinators: CSS selectors that combine selectors in a way that gives them a useful relationship to each other and the location of the content.
+Selectors that are written in a way that shows how they are related to each other and where they are being used in the program.
+The way they are generally written is like this: '1st selector' 'combinator' '2nd selector'
+The reason why we use css combinators is for when we want to target certain sections of content without applying our css to other parts.
+
+Descendant Combinators: The most commonly used one that we may not be aware of. Represented by a single space character (' ') between selectors.  
+ There are two selectors used here: The ancestor (the first one) and the descendant (the second one).
+Example:
+div p{} <-- This would select all paragraphs contained within any div containers, and nothing else.
+
+Child Combinators: Represented by a greater than sign (>), selects only immediate children, not all descendant selectors.
+Example: section > p{} <-- This would select all paragraphs within a section that are IMMEDIATE children of the ancestor section selector, so if there was a div p within the section, then they would not be selected by it.
+
+Next Sibling Combinators: Represented by the plus sign (+), this combinator only selects the next sibling in the code line.
+Example:
+html:
+
+<section>
+</section>
+<div>
+</div>
+<div>
+</div>
+Css:
+section + div {} <-- Using the + combinator, this would only select the div element next to our section element, not all of them.
+
+Subsequent Sibling Combinators: Represented by the tilde icon (~), this combinator selects sibling elements of the selector.
+If all first elements would be called children of the main body element, then having a selector to identify and choose certain sibling aspects would be useful.
+Think of it as if you had to choose a sibling of yours. How would you choose them? Would it be all girl siblings? All left-handed siblings? Siblings that think breakfast is the most important meal of the day?
+Example:
+html:
+
+<section>
+</section>
+<div>
+</div>
+<id>
+</id>
+Css:
+section ~ div {} <-- Using this combinator, it would select all div siblings in the code, but nothing else.
