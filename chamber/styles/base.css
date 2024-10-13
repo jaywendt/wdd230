@@ -1,0 +1,42 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #A28B55;
+}
+
+/* header */
+
+header {
+    font-family: 'Protest Strike', sans-serif;
+    background-color: #86AB89;
+    text-align: center;
+    padding: 1rem;
+    margin: 3rem;
+    border: 2px solid black;
+}
+
+/* main */
+
+body section h3 {
+    font-family: 'Protest Strike', sans-serif;
+    background-color: #86AB89;
+    border: 2px solid black;
+    padding: 1rem;
+    margin: 3rem;
+}
+
+body section p {
+    background-color: #E7FBE6;
+    padding: 3rem;
+    margin: 3rem;
+}
+
+body section ul {
+    background-color: #E7FBE6;
+    padding: 3rem;
+    margin: 3rem;
+}
+
+body section img {
+    max-height: 500px;
+    max-width: 1000px;
+}
