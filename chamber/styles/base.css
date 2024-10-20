@@ -24,6 +24,21 @@ nav {
     grid-column: 1/3;
 }
 
+.dark {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.dark-mode {
+	background-color: #000;
+	color: #fff;
+	border-color: #eee; 
+}
+
 /* main */
 
 .left-sidebar {
