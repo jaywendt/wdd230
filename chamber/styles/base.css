@@ -1,6 +1,11 @@
 body {
+    display: grid;
     font-family: "Montserrat", sans-serif;
     background-color: #A28B55;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    height: 100vh;
 }
 
 /* header */
@@ -12,9 +17,34 @@ header {
     padding: 1rem;
     margin: 3rem;
     border: 2px solid black;
+    grid-column: 1/4;
+}
+
+nav {
+    grid-column: 1/3;
 }
 
 /* main */
+
+.left-sidebar {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+main {
+    display: grid;
+    grid-column: 2/3;
+}
+
+.hero-image img{
+    height: 500px;
+    width: 800px;
+    border: 2px solid black;
+}
+
+.right-sidebar {
+    grid-column: 3/4;
+}
 
 body section h3 {
     font-family: 'Protest Strike', sans-serif;
@@ -28,15 +58,20 @@ body section p {
     background-color: #E7FBE6;
     padding: 3rem;
     margin: 3rem;
+    border: 2px solid black;
 }
 
 body section ul {
     background-color: #E7FBE6;
     padding: 3rem;
     margin: 3rem;
+    border: 2px solid black;
 }
 
-body section img {
-    max-height: 500px;
-    max-width: 1000px;
+footer {
+    grid-row: 3/4;
+    grid-column: 1/4;
+    background-color: #E7FBE6;
+    text-align: center;
+    border: 2px solid black;
 }
