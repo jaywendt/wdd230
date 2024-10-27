@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Strike&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/coc-favicon.ico">
+    <link rel="icon" href="images/coc-favicon.webp">
 </head>
 <body>
     <header>
@@ -43,13 +43,19 @@
     </div>
     <main>
         <section class="hero-image">
+            <!--
             <img src="images/warrenton-hero-image.jpg" alt="Warrenton Suburb">
-            <p>placeholder</p>
+            <p>placeholder</p>-->
+            <picture>
+                <source srcset="images/temp-hero-small.webp" media="max-width: 500px">
+                <source srcset="images/temp-hero-medium.webp" media="max-width: 1000px">
+                <img src="images/temp-hero-large.webp" width="1500" height="750">
+            </picture>
         </section>
     </main>
     <div class="right-sidebar">
         <section class="weather">
-            <p>weather placeholder</p>
+            <span id="windchill"></span>
         </section>
         <section class="spotlights">
             <p>spotlight placeholder</p>
@@ -62,5 +68,6 @@
     </footer>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
