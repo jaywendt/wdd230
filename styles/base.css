@@ -139,7 +139,7 @@ li.menu::first-letter {
 
 main {
     background-color: lightcyan;
-    height: 100%;
+    height: auto;
     padding: 2rem;
     border: 2px solid black;
     margin: 2rem;
@@ -194,6 +194,7 @@ h2 {
 /*footer*/
 
 footer {
+    display: grid;
     background-color: lightcyan;
     padding: 2rem;
     text-align: center;
