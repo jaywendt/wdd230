@@ -1,0 +1,38 @@
+:root {
+	--border: hsla(0,0%,20%,.8);
+	--zebra: hsl(0, 0%, 93%, 1);
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 5px;
+    caption-side: bottom;
+}
+
+tr:first-child th {
+    background-color: blue;
+    color: whitesmoke;
+}
+
+th, td {
+    padding: 7px 15px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: lightblue;
+    font-size: large;
+}
+
+td {
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--zebra);
+}
