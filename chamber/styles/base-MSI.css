@@ -1,0 +1,126 @@
+body {
+    display: grid;
+    font-family: "Montserrat", sans-serif;
+    background-color: #A28B55;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    height: 100vh;
+}
+
+/* header */
+
+header {
+    font-family: 'Protest Strike', sans-serif;
+    background-color: #86AB89;
+    text-align: center;
+    padding: 1rem;
+    margin: 3rem;
+    border: 2px solid black;
+    grid-column: 1/4;
+}
+
+nav {
+    grid-column: 1/3;
+}
+
+.dark {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.dark-mode {
+	background-color: #000;
+	color: black;
+    border: 2px solid;
+}
+
+/* main */
+
+.left-sidebar {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.left-sidebar h3 {
+    text-align: center;
+    background-color: #E7FBE6;
+}
+
+.left-sidebar h4 {
+    text-align: center;
+    background-color: #E7FBE6;
+    border: 2px solid black;
+    padding: 1rem;
+    margin: 3rem;
+}
+
+.left-sidebar section p {
+    text-align: left;
+}
+
+main {
+    display: grid;
+    grid-column: 2/3;
+}
+
+.hero-image img{
+    height: 500px;
+    width: 800px;
+    border: 2px solid black;
+}
+
+.right-sidebar {
+    grid-column: 3/4;
+}
+
+body section h3 {
+    font-family: 'Protest Strike', sans-serif;
+    background-color: #86AB89;
+    border: 2px solid black;
+    padding: 1rem;
+    margin: 3rem;
+}
+
+body section p {
+    background-color: #E7FBE6;
+    padding: 3rem;
+    margin: 3rem;
+    border: 2px solid black;
+}
+
+body section ul {
+    background-color: #E7FBE6;
+    padding: 3rem;
+    margin: 3rem;
+    border: 2px solid black;
+}
+
+picture img {
+    border: 2px solid black;
+    padding: 1rem;
+}
+
+picture img:hover {box-shadow: 0 0 50px #333;}
+
+picture p {
+    background-color: #E7FBE6;
+    padding: 1rem;
+    border: 2px solid black;
+    position: relative;
+    bottom: 40px;
+}
+
+/* footer */
+
+footer {
+    grid-row: 3/4;
+    grid-column: 1/4;
+    background-color: #E7FBE6;
+    text-align: center;
+    border: 2px solid black;
+}

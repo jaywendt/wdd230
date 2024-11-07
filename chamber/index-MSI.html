@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warrenton Chamber of Commerce</title>
+    <meta name="author" content="Johannes Wendt">
+    <meta name="description" content="Warrenton Chamber of Commerce project">
+    <meta property="og:title" content="Johannes Wendt - WDD 230 - Wen Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://epsilon.creativecirclecdn.com/warren/original/20210909-123025-historical%20buildings%20main%20street%20warrenton.JPG">
+    <meta property="og:url" content="https://jaywendt.github.io/wdd230/">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Strike&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/coc-favicon.webp">
+</head>
+<body>
+    <header>
+        <h1>Warrenton Chamber of Commerce</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a>Directory</a></li>
+                <li><a>Join</a></li>
+            </ul>
+        </nav>
+        <div class="dark">
+            🕶️
+        </div>
+    </header>
+    <div class="left-sidebar">
+        <section class="call-to-action">
+            <h3>Join the Chamber!</h3>
+            <p>call placeholder</p>
+        </section>
+        <section class="events">
+            <p>event placeholder</p>
+        </section>
+    </div>
+    <main>
+        <section class="hero-image">
+            <picture>
+                <source srcset="images/warrenton-hero-image-small.webp" media="max-width: 500px">
+                <source srcset="images/warrenton-hero-image-medium.webp" media="max-width: 1000px">
+                <img src="images/warrenton-hero-image-large.webp" width="1500" height="750">
+            </picture>
+        </section>
+    </main>
+    <div class="right-sidebar">
+        <section class="weather">
+            <span id="windchill"></span>
+        </section>
+        <section class="spotlights">
+            <p>spotlight placeholder</p>
+        </section>
+    </div>
+    <footer>
+        <p>Johannes Wendt</p>
+        <p>WDD 230 Chamber Project</p>
+        <span id="lastModified"></span>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>
