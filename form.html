@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <meta name="author" content="Johannes Wendt">
+    <meta name="description" content="Class: WDD 230 - Web Frontend Development.  Student: Johannes Wendt.  Course assignment portal">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Johannes Wendt - WDD 230 - Wen Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://epsilon.creativecirclecdn.com/warren/original/20210909-123025-historical%20buildings%20main%20street%20warrenton.JPG">
+    <meta property="og:url" content="https://jaywendt.github.io/wdd230/">
+</head>
+<body>
+    <header>
+        <img src="images/profile-pic.webp" alt="Johannes Wendt Profile Picture">
+        <h1>Johannes Wendt</h1>
+    </header>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="chamber/">Chamber</a></li>
+            <li><a href="https://www.byui.edu/">BYU-Idaho</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/5?lang=eng">Favorite Scripture: 3rd Nephi 5:13</a></li>
+        </ul>
+    </div>
+    <nav>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <main>
+        <form method="get" action="record.html">
+            <fieldset>
+                <legend>Profile</legend>
+                <div for="formmessage">Welcome!  Please enter your information here</div>
+                <label>Username: <input type="text" id="username" name="username" required></label>
+                <label for="password">Password: <input type="password" id="password" name="password" pattern="[A-Za-z0-9]{8,}" required></label>
+                <label for="password2">Pleasde re-enter your password: <input type="text" id="password2" name="password2" pattern="[A-Za-z0-9]{8,}"></label>
+                <label>E-mail: <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9_.\-]+@byui.edu" required></label>
+                <label for="range">Page Rating: <input type="range" id="range" name="range" min="0" max="10" value="0" step="1" list="rangevalues">
+                    <datalist id="rangevalues">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist>
+                </label>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p> &copy; 2024
+            Johannes Wendt
+            Missouri, USA
+        </p>
+        <span id="lastModified"></span>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/visits.js"></script>
+    <script src="scripts/repeat.js"></script>
+    <script src="scripts/emailValid.js"></script>
+</body>
+</html>
