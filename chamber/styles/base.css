@@ -115,6 +115,51 @@ picture p {
     bottom: 40px;
 }
 
+/* form */
+
+#description {
+    height: 60px;
+}
+
+:root {
+	--border: gray;
+	--zebra: gray;
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 5px;
+    caption-side: bottom;
+}
+
+tr:first-child th {
+    background-color: #86AB89;
+    color: black;
+}
+
+th, td {
+    padding: 7px 15px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: #86AB89;
+    font-size: large;
+}
+
+td {
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--zebra);
+}
+
 /* footer */
 
 footer {

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warrenton Chamber of Commerce</title>
+    <meta name="author" content="Johannes Wendt">
+    <meta name="description" content="Warrenton Chamber of Commerce project">
+    <meta property="og:title" content="Johannes Wendt - WDD 230 - Wen Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://epsilon.creativecirclecdn.com/warren/original/20210909-123025-historical%20buildings%20main%20street%20warrenton.JPG">
+    <meta property="og:url" content="https://jaywendt.github.io/wdd230/">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Strike&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/coc-favicon.webp">
+</head>
+<body>
+    <header>
+        <h1>Warrenton Chamber of Commerce</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a>Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+        <div class="dark">
+            🕶️
+        </div>
+    </header>
+    <div class="left-sidebar">
+        <section class="benefits">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="6" scope="colgroup">Membership Benefits</th>
+                    </tr>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Bronze</th>
+                        <th scope="col">Silver</th>
+                        <th scope="col">Gold</th>
+                        <th scope="col">Platinum</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>E-mails & Alerts</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Dedicated Newsletter/Website Space</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Local Radio Airtime</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Community Discounts</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Emeritus Status</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+    <main>
+        <h1>Join up with the Chamber of Commerce today!</h1>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label>First Name: <input type="text" id="fname" name="fname" required></label>
+                <label>Last Name: <input type="text" id="lname" name="lname" required></label>
+                <label>Position in Business: <input type="text" id="position" name="position" required pattern="[A-Za-z]{7}"></label>
+                <label>E-Mail: <input type="email" id="email" name="email" required placeholder="example@email.com"></label>
+                <label>Phone: <input type="tel" id="phone" name="phone" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Business Information</legend>
+                <label>Business/Organization Name: <input type="text" id="business" name="business" required></label>
+                <div>Membership Level: </div>
+                <label><input type="radio" name="member" value="bronze">Level: Bronze</label>
+                <label><input type="radio" name="member" value="silver">Level: Silver</label>
+                <label><input type="radio" name="member" value="gold">Level: Gold</label>
+                <label><input type="radio" name="member" value="platinum">Level: Platinum</label>
+                <label for="description">Business Description: <input type="text" id="description" name="description" size="60"></label>
+                <input type="submit" value="Apply now!">
+            </fieldset>
+        </form>
+    </main>
+    <div class="right-sidebar">
+        <section class="weather">
+            <span id="windchill"></span>
+        </section>
+        <section class="spotlights">
+            <p>spotlight placeholder</p>
+        </section>
+    </div>
+    <footer>
+        <p>Johannes Wendt</p>
+        <p>WDD 230 Chamber Project</p>
+        <span id="lastModified"></span>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>
