@@ -1,0 +1,26 @@
+body {
+    
+}
+
+
+header {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    border: 2px solid black;
+    margin: 2rem;
+}
+
+.cards {
+    padding: 2rem;
+    border: 2px solid black;
+    margin: 2rem;
+    background-color: blueviolet;
+}
+
+footer {
+
+}
