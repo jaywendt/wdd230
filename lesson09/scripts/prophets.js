@@ -5,9 +5,9 @@ async function getProphetData(url) {
     const response = await fetch(url);
     const data = await response.json();
     displayProphets(data.prophets);
-    }
+}
   
-    getProphetData();
+getProphetData();
 
 const displayProphets = (prophets) => {
     prophets.forEach((prophet) => {
@@ -15,7 +15,7 @@ const displayProphets = (prophets) => {
         let fullName = document.createElement('h2');
         let portrait = document.createElement('img');
 
-        fullName.textContent = '${prophet.name}, Prophet of the Lord';
+        fullName.textContent = '${prophet.fullName}, Prophet of the Lord';
         portrait.setAttribute('src', prophet.imageurl);
         portrait.setAttribute('alt', 'Portrait of ${prophet.name}, Prophet of God');
         portrait.setAttribute('loading', 'lazy');
