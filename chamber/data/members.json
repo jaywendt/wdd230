@@ -1,0 +1,60 @@
+{
+    "members" : [
+        {
+            "name" : "Topham Hatters",
+            "address" : "123 Wonder Lane",
+            "phoneNumber" : 6133448423,
+            "website" : "tophats.com",
+            "imageFile" : "https://cdn-icons-png.flaticon.com/512/731/731503.png",
+            "membershipLevel" : "Silver"
+        },
+        {
+            "name" : "Mawmaw's Cupboard",
+            "address" : "1040 Main St",
+            "phoneNumber" : 6134226834,
+            "website" : "n/a",
+            "imageFile" : "https://st5.depositphotos.com/74856820/68444/v/450/depositphotos_684441972-stock-illustration-modern-design-icon-mobile-shopping.jpg",
+            "membershipLevel" : "Bronze"
+        },
+        {
+            "name" : "Moo-Licious",
+            "address" : "2120 Old Town Rd",
+            "phoneNumber" : 6134448920,
+            "website" : "moolicious.com",
+            "imageFile" : "https://www.shutterstock.com/image-vector/cute-cow-lay-on-ice-600nw-2223874141.jpg",
+            "membershipLevel" : "Gold"
+        },
+        {
+            "name" : "Rural King",
+            "address" : "2300 Old Town Rd",
+            "phoneNumber" : 6132425987,
+            "website" : "ruralking.com",
+            "imageFile" : "https://cdn-icons-png.flaticon.com/512/1112/1112402.png",
+            "membershipLevel" : "Platinum"
+        },
+        {
+            "name" : "Super Pizza",
+            "address" : "10225 Highway 47",
+            "phoneNumber" : 4538809924,
+            "website" : "superpizza.com",
+            "imageFile" : "https://i.pinimg.com/originals/da/5f/0d/da5f0dac114be2c9bbf4e71520aae8e3.png",
+            "membershipLevel" : "Silver"
+        },
+        {
+            "name" : "Mimi's Antiques",
+            "address" : "2510 Old Town Rd",
+            "phoneNumber" : 2134456234,
+            "website" : "mimis.com",
+            "imageFile" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdBaJgrLtKl8Ko9pwxqja6VMCYVPFs1Wy0uA&s",
+            "membershipLevel" : "bronze"
+        },
+        {
+            "name" : "Schmucks Groceries",
+            "address" : "450 Alter Lane",
+            "phoneNumber" : 4532283498,
+            "website" : "schmucks.com",
+            "imageFile" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS_h0AU-tksL1JmRfkHQdh91dnm6yS3V9HMw&s",
+            "membershipLevel" : "gold"
+        }
+    ]
+}
