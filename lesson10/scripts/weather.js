@@ -4,14 +4,14 @@ const captionDesc = document.querySelector('figcaption');
 
 const url = 'https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64&appid=5c267d8cd95cc207aa4443050642a060&units=imperial';
 
-async function apiFetch() {
+async function apiFetch(){
     try {
         const response = await fetch(url);
         if (response.ok) {
-            /*console.log(data);*/
+            const data = await response.json();
             displayResults(data);
         } else {
-            throw error(await response.text());
+            throw Error(await response.text());
         }
     } catch (error) {
         console.log(error);
@@ -24,6 +24,7 @@ function displayResults(data) {
     let desc = data.weather[0].description;
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', 'weather icon');
+    captionDesc.textContent = '{desc}';
 }
 
 apiFetch();
