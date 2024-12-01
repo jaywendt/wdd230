@@ -1,7 +1,8 @@
-const url = 'https://github.com/jaywendt/wdd230/blob/master/chamber/data/members.json'
+const baseURL = 'https://jaywendt.github.io/wdd230/';
+const dataURL = 'https://jaywendt.github.io/wdd230/chamber/data/members.json'
 const members = document.querySelector('#members');
 
-async function getjson(url) {
+async function getMembers(url) {
     try {
         const response = await fetch(url);
         if (!response.ok) {
@@ -16,9 +17,12 @@ async function getjson(url) {
     }
 }
 
-getjson();
+getMembers();
 
 const displayMembers = (members) => {
+
+    const card = document.querySelector('#members');
+    
     members.forEach((member) => {
 
         let box = document.createElement('section');
