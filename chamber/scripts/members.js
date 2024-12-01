@@ -2,9 +2,18 @@ const url = 'https://github.com/jaywendt/wdd230/blob/master/chamber/data/members
 const members = document.querySelector('#members');
 
 async function getjson(url) {
-    const response = await fetch(url);
-    const data = await response.json();
-    displaymembers(data.members)
+    try {
+        const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error("Failed to fetch data");
+        }
+        const data = await response.json();
+        displayMembers(data.members);
+        return data;
+    } catch (error) {
+        console.error("Data fetch error", error);
+        throw error;
+    }
 }
 
 getjson();
