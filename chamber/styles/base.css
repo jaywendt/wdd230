@@ -95,7 +95,7 @@ main {
     font-size: 1.5rem;
     margin: 0;
     padding: 1.25rem;
-    background-color: #86AB89;
+    background-color: #CBE2B5;
 }
 
 .right-sidebar {
@@ -125,28 +125,81 @@ body section ul {
 }
 
 picture img {
+    background-color: #CBE2B5;
     border: 2px solid black;
-    padding: 1rem;
+    padding: 0.5rem;
+    align-content: center;
 }
 
-.weather p {
+picture p {
+    text-align: center;
+    background-color: #E7FBE6;
+    padding: 1rem;
+    border: 2px solid black;
+    position: relative;
+    bottom: 40px;
+}
+
+picture img:hover {box-shadow: 0 0 50px #333;}
+
+.weather {
     background-color: #86AB89;
     border: 1px solid black;
     margin: 1rem;
+    padding: 0.1rem;
+    text-align: center;
+}
+
+.weather h2 {
+    background-color: #CBE2B5;
+    border: 1px solid black;
+    margin: 1rem;
     padding: 1rem;
+    text-align: center;
+}
+
+.weather h4 {
+    background-color: #CBE2B5;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.weather p {
+    background-color: #E7FBE6;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.spotlights {
+    background-color: #86AB89;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 0.1rem;
     text-align: center;
 }
 
 .spotlights p {
-    background-color: #86AB89;
+    background-color: #E7FBE6;
     border: 1px solid black;
     margin: 1rem;
     padding: 1rem;
     text-align: center;
 }
 
-.call-to-action li {
+.call-to-action {
     background-color: #86AB89;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 0.1rem;
+    text-align: center;
+}
+
+.call-to-action li {
+    background-color: #CBE2B5;
     border: 1px solid black;
     margin: 1rem;
     padding: 1rem;
@@ -154,23 +207,60 @@ picture img {
     list-style: none;
 }
 
+.events {
+    background-color: #86AB89;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 0.1rem;
+    text-align: center;
+}
 
 .events p {
-    background-color: #86AB89;
+    background-color: #E7FBE6;
     border: 1px solid black;
     margin: 1rem;
     padding: 1rem;
     text-align: center;
 }
 
-picture img:hover {box-shadow: 0 0 50px #333;}
+.information {
+    background-color: #86AB89;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 0.1rem;
+    text-align: center;
+}
 
-picture p {
-    background-color: #E7FBE6;
+.information h4 {
+    background-color: #CBE2B5;
+    border: 1px solid black;
+    margin: 1rem;
     padding: 1rem;
-    border: 2px solid black;
-    position: relative;
-    bottom: 40px;
+    text-align: center;
+}
+
+.information p {
+    background-color: #E7FBE6;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.attractions {
+    background-color: #86AB89;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 0.1rem;
+    text-align: center;
+}
+
+.attractions p {
+    background-color: #E7FBE6;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
 }
 
 /* form */
