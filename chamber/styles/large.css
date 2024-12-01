@@ -1,6 +1,3 @@
-@media screen and (mmax-width: 1024px) {
-    .hero-image {
-        width: 100%;
-        height: auto;
-    }
+@media screen and (min-width: 60em) {
+
 }
