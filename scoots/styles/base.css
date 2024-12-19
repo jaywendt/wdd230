@@ -119,6 +119,8 @@ h1 {
 footer {
   font-family: "Kranky", serif;
   background-color: #ffd23f;
+  text-align: center;
+  opacity: 75%;
 }
 
 #contact {
