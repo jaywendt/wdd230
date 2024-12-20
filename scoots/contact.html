@@ -49,7 +49,10 @@
             <h3>Sending us an email!</h3>
             <form method="get" action="thanks.html">
                 <fieldset>
-                    
+                    <label>Your name: <input type="text" name="messageName" required></label>
+                    <label>Phone Number: <input type="tel" name="messageTel" required></label>
+                    <label>Email (optional): <input type="email" name="messageEmail"></label>
+                    <label>What would you like to tell us? <textarea placeholder="Let us know how we can best serve you!" required></textarea></label>
                 </fieldset>
                 <input type="submit" value="Email us!">
             </form>
