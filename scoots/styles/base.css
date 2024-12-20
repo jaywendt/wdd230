@@ -151,6 +151,14 @@ td {
   text-align: center;
 }
 
+.congratulations h1 {
+  font-family: "Slackey", sans-serif;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: #04AA6D;
+}
+
 
 /** Footer **/
 

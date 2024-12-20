@@ -53,7 +53,7 @@
             </ul>
         </div>
         <div class="form">
-            <form method="get" action="#">
+            <form method="get" action="congrats.html">
                 <fieldset>
                     <legend>Renter Information</legend>
                     <label>First Name* <input type="text" name="fname" required></label>
@@ -62,16 +62,32 @@
                     <label>Email <input type="email" name="email"></label>
                     <label>Home State/ Country <input type="text" name="home" placeholder="USA, Mexico, etc."></label>
                     <label>Cruise Line (if applicable) <input type="text" name="cruise"></label>
-                    <label>Special Accommodations/Comments <input type="text" name="special"></label>
+                    <label>Special Accommodations/Comments <textarea placeholder="Please lete us know if you have special circumstances or needs"></textarea></label>
                 </fieldset>
                 <fieldset>
                     <legend>Rental Information</legend>
-                    <label><input></label>
-                    <label><input></label>
-                    <label><input></label>
-                    <label><input></label>
-                    <label><input></label>
+                    <label>Pickup Date<input type="date" name="startDate"></label>
+                    <label>Return Date<input type="date" name="endDate"></label>
+                    <div>Rental Location</div>
+                    <label><input type="radio" name="location" value="playa">Playa Del Carmen-Cozumel Ferry Dock</label>
+                    <label><input type="radio" name="location" value="terminal">Terminal Puerta Maya</label>
+                    <fieldset>
+                        <div>Vehicle Type</div>
+                        <div>Scooters</div>
+                        <label><input type="checkbox" name="vehicle" value="yes">Honda Metropolitan (49cc) 1-Person</label>
+                        <label><input type="checkbox" name="vehicle" value="yes">Honda Dio (110cc) 2-Person</label>
+                        <label><input type="checkbox" name="vehicle" value="yes">Honda PCX150 (149cc) 2-Person</label>
+                        <div>ATVs</div>
+                        <label><input type="checkbox" name="vehicle" value="yes">Honda Pioneer 1000 4-Person</label>
+                        <div>Jeeps</div>
+                        <label><input type="checkbox" name="vehicle" value="yes">Jeep Wrangler (4 Door, Manual with A/C, 5-Person)</label>
+                        <label><input type="checkbox" name="vehicle" value="yes">Jeep Wrangler (2 Door, Open Air, Manual, 4-Person)</label>
+                    </fieldset>
+                    <div>Rental Duration</div>
+                    <label><input type="radio" name="duration" value="half">Half Day</label>
+                    <label><input type="radio" name="duration" value="full">Full Day</label>
                 </fieldset>
+                <input type="submit" value="Make my reservation!">
             </form>
         </div>
     </main>
