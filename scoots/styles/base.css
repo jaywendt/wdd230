@@ -97,16 +97,18 @@ header h1 {
 
 .nav {
   display: flex;
-  background-color: #540d6e;
+  background-color: #55ACEE;
   overflow: hidden;
   justify-content: center;
   border: 1px solid black;
+  opacity: 75%;
+  font-family: "Slackey", sans-serif;
 }
 
 .nav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -119,8 +121,9 @@ header h1 {
 }
 
 .nav a.active {
-  background-color: #04AA6D;
+  background-color: #540d6e;
   color: white;
+  opacity: 75%;
 }
 
 .nav .icon {
@@ -129,7 +132,100 @@ header h1 {
 
 /** Main **/
 main {
-  
+  display: grid;
+  grid-template-columns: 200px 1000px;
+  grid-template-rows: auto;
+}
+
+h2, h3, h4 {
+  font-family: "Slackey", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  background-color: #55ACEE;
+  margin: 10px auto;
+  border: 1px solid black;
+  border-radius: 100px;
+  padding: 10px;
+}
+
+p {
+  font-family: "Kranky", serif;
+}
+
+/** home **/
+
+.left-bar {
+  grid-column: 1/2;
+}
+
+.hero, .homeRentals, .reviews {
+  grid-column: 2/4;
+}
+
+.left-bar #call-to-action {
+  background-color: #55ACEE;
+  opacity: 75%;
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+  margin: 5px;
+}
+
+.left-bar li {
+  font-family: "Kranky", serif;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: solid;
+  font-style: italic;
+  font-size: x-large;
+}
+
+.hero {
+  background-color: #55ACEE;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 100px;
+}
+
+.hero h2 {
+  border: 0;
+  width: 1000px;
+}
+
+.homeRentals {
+  background-color: #55ACEE;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 100px;
+}
+
+.homeRentals h2 {
+  border: 0;
+  width: 1000px;
+}
+
+.reviews {
+  background-color: #55ACEE;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 100px;
+}
+
+/** rentals **/
+
+.pricing {
+  grid-column: 1/4;
+  grid-row: auto;
+}
+
+#vehicleInfo {
+  grid-column: 1/4;
+  grid-row: auto;
 }
 
 table {
@@ -168,7 +264,11 @@ td {
 
 /** reservations **/
 
-.res-hero {
+.res-hero, .agreements, .form {
+  grid-column: 1/4;
+}
+
+.res-hero h2 {
   background-color: #55ACEE;
   opacity: 75%;
   text-align: center;
@@ -214,10 +314,6 @@ td {
   padding: .5rem 2%;
 }
 
-.form fieldset {
-
-}
-
 .form label {
   display: block;
   padding: 5px;
@@ -231,6 +327,46 @@ td {
   background-color: #04AA6D;
 }
 
+/** contact **/
+
+main h2, .phoneCall, .storeLocation, .message {
+  grid-column: 1/4;
+}
+
+.phoneCall {
+  background-color: #55ACEE;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid black;
+  opacity: 75%;
+}
+
+.storeLocation {
+  text-align: center;
+  padding: 20px;
+}
+
+.storeLocation h3 {
+  background-color: #55ACEE;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 100px;
+  opacity: 75%;
+}
+
+.message {
+  background-color: #55ACEE;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 100px;
+  opacity: 75%;
+}
+
+.message form label{
+  display: block;
+  padding: 5px;
+}
 
 /** Footer **/
 
