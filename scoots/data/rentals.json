@@ -1,5 +1,4 @@
-{
-    "rentals" : [
+[
         {
             "rentalType" : "scooter",
             "vehicle" : "Honda Metro Scooter",
@@ -55,4 +54,3 @@
             "walkFullDay" : 90
         }
     ]
-}

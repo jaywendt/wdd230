@@ -75,7 +75,12 @@ body {
 }
 
 /** Header **/
-h1 {
+
+header {
+  display: grid;
+}
+
+header h1 {
   font-family: "Slackey", sans-serif;;
   background-color: #ffd23f;
   text-align: center;
@@ -83,12 +88,19 @@ h1 {
   border: 2px solid black;
   border-radius: 50%;
   width: 400px;
+  position: relative;
+  top: auto;
+  left: 535px;
 }
+
   /**Nav**/
 
 .nav {
+  display: flex;
   background-color: #540d6e;
   overflow: hidden;
+  justify-content: center;
+  border: 1px solid black;
 }
 
 .nav a {
@@ -116,6 +128,9 @@ h1 {
 }
 
 /** Main **/
+main {
+  
+}
 
 table {
   margin: 10px auto;
@@ -149,6 +164,63 @@ th {
 td {
   font-family: "Kranky", serif;
   text-align: center;
+}
+
+/** reservations **/
+
+.res-hero {
+  background-color: #55ACEE;
+  opacity: 75%;
+  text-align: center;
+  font-size: larger;
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 1rem;
+  border-radius: 50%;
+  width: 600px;
+  font-family: "Slackey", sans-serif;
+  position: relative;
+  left: 425px;
+}
+
+.agreements {
+  text-decoration: none;
+  text-align: center;
+  font-family: "Kranky", serif;
+  font-size: large;
+  background-color: #04AA6D;
+  opacity: 75%;
+  width: auto;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 100px;
+  margin: 5px;
+}
+
+.agreements ul li {
+  list-style-type: none;
+}
+
+.form {
+  background-color: #04AA6D;
+  opacity: 75%;
+}
+
+.form .rentAgreement {
+  font-family: "Kranky", serif;
+  margin: 2rem 0;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: .5rem 2%;
+}
+
+.form fieldset {
+
+}
+
+.form label {
+  display: block;
+  padding: 5px;
 }
 
 .congratulations h1 {
